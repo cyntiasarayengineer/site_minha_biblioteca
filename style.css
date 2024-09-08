@@ -81,10 +81,20 @@ section button {
 }
 
 /* Estiliza os títulos dentro dos itens de resultado de Livros */
+.livro-resultado h3 {
+    cursor: pointer;
+    color: #222831;
+    margin-bottom: 5px;
+}
 
-.livros {
-    color: #45474B; /* Cor do texto */
-    margin: 0.5rem 0; /* Margem acima e abaixo */
+.livro-resultado h3:hover {
+    text-decoration: underline;
+}
+
+.resenha {
+    padding-left: 15px;
+    color: #555;
+    border-left: 3px solid #ccc;
 }
 
 
